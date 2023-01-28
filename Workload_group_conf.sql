@@ -37,5 +37,6 @@ CREATE WORKLOAD CLASSIFIER wg_classifier_regulatory
 -------------------------------------------------------------------------------------------
 DROP WORKLOAD CLASSIFIER wg_classifier_regulatory;
 -------------------------------------------------------------------------------------------
+select * from sys.dm_pdw_workload_management_workload_groups
 
 
