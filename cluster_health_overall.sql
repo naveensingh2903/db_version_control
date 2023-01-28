@@ -155,3 +155,7 @@ FROM dbo.vTableSizes
 GROUP BY     distribution_id
 ORDER BY    distribution_id;
 --------------------------------------------------------------------------------------------
+select status,count(*) from sys.dm_pdw_exec_requests
+group by status
+order by 2 desc 
+ 
